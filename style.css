@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Honk&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 100px;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(238, 238, 238, 1) ;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+a {
+    color: rgb(8, 8, 8) ;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: none;
+    padding: 20px;
+}
+
+.log{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+body {
+    background-color: rgba(231, 238, 237, 0.39);
+}
+
+main {
+    /* border: 2px solid black; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    /* width: fit-content;
+    height: fit-content; */
+    display: flex;
+}
+
+/* .maincontainer {
+    border: 1px solid black;
+    height: 500px;
+    margin: 20px 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.cart{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 20px;
+    margin-right: 0px;
+
+}
+
+.cart h1{
+    margin-bottom: 10px;
+}
+
+.selectedorders {
+    /* border: 1px solid black; */
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.884);
+    border-radius: 10px;
+}
+
+.order-info {
+    border: 1px solid rgb(233, 228, 228);
+    width: 45%;
+    margin: 20px;
+    margin-left: 0px;
+    height: 70%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+.circle-indicators{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.circle{
+    width: 10px;  
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e2f1ea;
+}
+.circle-active{
+    width: 10px;  
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgba(0, 219, 182, 1);
+}
+
+.contentdetails{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* margin: 10px; */
+    /* padding: 25px; */
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cartitemsimage {
+    border-radius: 20px;
+}
+
+.bin {
+    border: 3px solid #00dbb6;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+select {
+    /* border: 1px solid ; */
+    border-color: transparent;
+}
+
+select:hover {
+    background-color: transparent;
+    border-color: rgba(0, 219, 182, 1) ;
+}
+
+.orderInfoContainer{
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.orderInfoContainer h2,p,img,input,button{
+    margin: 5px;
+}
+
+.pricinginfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 250px; */
+}
+.pricinginfo-p1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(157, 167, 165, 0.39);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+.promoSection{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    border: 1px solid rgba(212, 226, 224, 0.918);
+    padding: 10px;
+    width: 55%;
+    background-color: rgba(235, 253, 250, 0.39);
+    border-radius: 5px;
+}
+
+.promoSection img{
+    width: 5%;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+button{
+    /* width: 20%; */
+    padding:10px 25px;
+    border-radius: 15px;
+    color: rgb(18, 43, 39);
+    border: 1px solid rgba(0, 219, 182, 1);
+    background-color: rgba(0, 219, 182, 1);
+    font-weight: 800 ;
+    transition: all 0.5s ease;
+}
+.promoSection button {
+    border: 1px solid rgba(0, 219, 182, 1);
+    background-color: transparent;
+    width: 30%;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
